@@ -1,0 +1,33 @@
+.New-collections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+.New-collections h1{
+    color: #34282C;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    
+    .collections{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100vw;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+    }
+    
+}

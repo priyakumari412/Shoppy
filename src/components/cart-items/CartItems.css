@@ -1,0 +1,153 @@
+.cartitems {
+    margin: 1rem 2rem;
+}
+
+.cartitems-format-main {
+    display: grid;
+    grid-template-columns: 0.7fr 1.7fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.cartitems-format {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cart-image {
+    height: 7vh;
+    width: 7vw;
+}
+
+.removeicon {
+    height: 4vh;
+    width: 4vw;
+}
+
+.cartitems-quantity {
+    height: 5vh;
+    width: 5vw;
+    background-color: rgb(244, 248, 254);
+    border: 1px solid rgb(196, 205, 212);
+    border-radius: 3px;
+    cursor: pointer;
+    color: #333;
+    font-size: small;
+    font-weight: bold;
+}
+
+.cartitems-down {
+    display: flex;
+    margin: 3rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.cartitems-total {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 4rem;
+}
+
+.cartitems-total-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.cartitems-total button {
+    width: 20vw;
+    height: 7vh;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    background: green;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.cartitems-promocode {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cartitems-promocode p {
+    color: #333
+}
+
+.cartitem-promobox {
+    width: 30vw;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    height: 5vh;
+    background-color: aliceblue;
+}
+
+.cartitem-promobox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    width: 20vw;
+    height: 5vh;
+}
+
+.cartitem-promobox button {
+    width: 10vw;
+    height: 5vh;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .cartitems-format-main {
+        display: grid;
+        grid-template-columns: 0.4fr 1.4fr 1fr 1fr 1fr 1fr;
+        gap: 0.5rem;
+        font-size: small;
+    }
+
+    .cartitems-down {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cartitems-format {
+        font-size: small;
+    }
+.cartitems-down{
+    margin: 0;
+    justify-content: center;
+}
+.cartitems-total{
+    margin:1rem 0;
+}
+.cartitems-total button{
+    width: 200px;
+    
+}
+.cartitem-promobox{
+width: 80vw;
+}
+.cartitem-promobox input{
+    width: 60vw;
+    }
+    .cartitem-promobox button{
+        width: 20vw;
+    }
+}

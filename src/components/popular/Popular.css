@@ -1,0 +1,34 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    box-sizing: border-box;
+    
+}
+.popular h1{
+    color: #34282C;
+    font-size: 5rem;
+    font-weight: bold;
+    display: block;
+}
+.popular-item{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .popular-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .popular{
+        height: 250vh;
+    }
+   
+}
